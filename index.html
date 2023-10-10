@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript-form-validation</title>
+</head>
+<body>
+  <form novalidate id="form-validation" action="*" method="post">
+    <div>
+      <label for="email">Email:</label>
+      <div class="input-container">
+        <input type="email" id="email" name="email" required placeholder=" ">
+        <span class="error" aria-live="polite"></span>
+      </div>
+    </div>
+    <div>
+      <label for="country">Country:</label>
+      <div class="input-container">
+        <select id="country">
+          <option value="ch">Switzerland</option>
+          <option value="fr">France</option>
+          <option value="de">Germany</option>
+          <option value="nl">The Netherlands</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <label for="ZIP">Zip code:</label>
+      <div class="input-container">
+        <input type="tel" id="ZIP" name="ZIP" required placeholder=" ">
+        <span class="error" aria-live="polite"></span>
+            </div>
+      </div>
+    <div>
+      <label for="password">Password:</label>
+      <div class="input-container">
+        <input type="password" id="password" name="password" required placeholder=" " minlength="8">
+        <span class="error" aria-live="polite"></span>
+            </div>
+      </div>
+    <div>
+      <label for="password-confirmation">Confirm password:</label>
+      <div class="input-container">
+        <input type="password" id="password-confirmation" name="password-confirmation" required placeholder=" ">
+        <span class="error" aria-live="polite"></span>
+      </div>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
