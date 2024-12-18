@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aadheuss/javascript-form-validation.git"
+    "url": "git+https://github.com/Adhisafdhol/javascript-form-validation.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aadheuss/javascript-form-validation/issues"
+    "url": "https://github.com/Adhisafdhol/javascript-form-validation/issues"
   },
-  "homepage": "https://github.com/Aadheuss/javascript-form-validation#readme",
+  "homepage": "https://github.com/Adhisafdhol/javascript-form-validation#readme",
   "devDependencies": {
     "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.3",
